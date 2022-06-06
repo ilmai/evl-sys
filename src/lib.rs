@@ -27,13 +27,13 @@ bitflags! {
     }
 }
 
-#[derive(Copy, Clone)]
+#[derive(Debug, Copy, Clone)]
 pub enum BuiltinClock {
     MONOTONIC = -libc::CLOCK_MONOTONIC as isize,
     REALTIME = -libc::CLOCK_REALTIME as isize,
 }
 
-#[derive(Copy, Clone)]
+#[derive(Debug, Copy, Clone)]
 pub enum SchedPolicy {
     FIFO = libc::SCHED_FIFO as isize,
     RR = libc::SCHED_RR as isize,

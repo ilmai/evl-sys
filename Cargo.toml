@@ -4,7 +4,7 @@ description = """
 Raw FFI bindings to the Xenomai4 'libevl' C interface.
 """
 edition = "2018"
-version = "0.20.2"
+version = "0.20.3"
 license-file = "LICENSE"
 authors = ["Philippe Gerum <rpm@xenomai.org>"]
 homepage = "https://evlproject.org"
