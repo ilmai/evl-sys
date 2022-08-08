@@ -33,6 +33,7 @@ fn main() {
         .allowlist_function("evl_.*")
         .allowlist_type("evl_.*")
         .allowlist_var("evl_.*")
+        .allowlist_function("oob_.*")
         .blocklist_function("evl_sigdebug_handler")
         .blocklist_type("siginfo_.*")
         .clang_arg("-Ivendor")
