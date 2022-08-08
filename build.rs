@@ -30,6 +30,7 @@ fn main() {
     }
 
     let bindings = bindgen::Builder::default()
+        .size_t_is_usize(true)
         .allowlist_function("evl_.*")
         .allowlist_type("evl_.*")
         .allowlist_var("evl_.*")
